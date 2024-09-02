@@ -1,15 +1,18 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Nunito+Sans:ital,wght@0,400;0,700;0,800;1,300;1,700&family=Poppins:wght@400;500;600;700;800;900&);
+
 .copoverde
 {
     height: 700px;
     text-align:right;
 }
 
-.starbucks
+.starbucks 
 {
- color:rgb(36, 228, 36); 
-font-family: "montserrant"; 
-font-style: "normal" ;
-font-weight: 300;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:'poppins', 'sans-serif';
+color:rgb(36, 228, 36); 
 }
 
 .cliqueaqui 
@@ -21,10 +24,45 @@ border-color:rgb(36, 228, 36);
 border-style: solid;
 border-radius: 10px;
 background-color: rgb(36, 228, 36) ;
+
  }
+
+.cliqueaqui:hover 
+{
+    color:white;
+}
 
 .logo
 {
 text-align: left;
 height: 50px;
+border-radius: 50%;
+}
+
+ul {
+    list-style-type:none;
+}
+
+li{
+    display:inline;
+    padding: 25px;
+    font-family:'poppins', 'sans-serif';
+    color:black;
+    
+}
+ 
+.acesso 
+{
+text-align: right;
+}
+
+body{
+    background-image: url(fundo\ brando.jpg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+
+.descrição
+{
+    font-family:'montserrat', 'sans-serif';
 }
