@@ -6,9 +6,16 @@
     text-align:right;
 }
 
+.coporosa
+{
+     height: 480px;
+     text-align:center;
+     margin-top: -290px; 
+}
+
 .starbucks 
 {
-margin: 0;
+margin: 0;s
 padding: 0;
 box-sizing: border-box;
 font-family:'poppins', 'sans-serif';
@@ -56,10 +63,16 @@ li{
 text-align: right;
 }
 
+
+.acesso :hover 
+{
+    color: white;
+}
+
 body{
     background-image: url(fundo\ brando.jpg);
     background-repeat: no-repeat;
-    background-size: 120%;
+    background-size: 200%;
 }
 
 .descrição
